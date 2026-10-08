@@ -1,10 +1,19 @@
 import { ArrowNEIcon } from "@/components/icons";
 
-const SOCIALS = ["Facebook", "LinkedIn", "Github"];
+const SOCIALS = [
+  { label: "Instagram", href: "https://www.instagram.com/ceagaa" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/carlos-henrique-conceicao" },
+  { label: "Github", href: "https://github.com/ceagaa" },
+];
 
 function DoubleArrowLink({ label, href = "#" }: { label: string; href?: string }) {
   return (
-    <a className="tp-btn pp-btn-nobg tp-ff-inter text-uppercase" href={href}>
+    <a
+      className="tp-btn pp-btn-nobg tp-ff-inter text-uppercase"
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <span>
         <span className="text-1">{label}</span>
         <span className="text-2">{label}</span>
@@ -41,7 +50,7 @@ export function SiteHeader() {
               <div className="col-span-12 2xl:col-span-4 xl:col-span-5 lg:col-span-6 md:col-span-8 2xl:col-start-9 xl:col-start-8">
                 <div className="pp-header-social mb-[20px]">
                   {SOCIALS.map((s) => (
-                    <DoubleArrowLink key={s} label={s} />
+                    <DoubleArrowLink key={s.label} label={s.label} href={s.href} />
                   ))}
                 </div>
               </div>
