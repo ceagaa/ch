@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import { SectionSubtitle, TpButton } from "@/components/sites/html-aqlova-com-27e9f18f/shared/primitives";
-import { FadeIn, RevealText } from "@/components/sites/html-aqlova-com-27e9f18f/shared/reveal";
+import { SectionSubtitle, TpButton } from "@/components/primitives";
+import { FadeIn, RevealText } from "@/components/reveal";
 import type { BlogPost } from "@/types/site";
 
 const POSTS: BlogPost[] = [

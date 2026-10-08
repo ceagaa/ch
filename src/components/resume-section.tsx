@@ -1,6 +1,6 @@
 import type { ResumeItem } from "@/types/site";
-import { SectionSubtitle } from "@/components/sites/html-aqlova-com-27e9f18f/shared/primitives";
-import { FadeIn, RevealText } from "@/components/sites/html-aqlova-com-27e9f18f/shared/reveal";
+import { SectionSubtitle } from "@/components/primitives";
+import { FadeIn, RevealText } from "@/components/reveal";
 
 interface ResumeSectionProps {
   title: string;

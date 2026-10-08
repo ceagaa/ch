@@ -1,13 +1,13 @@
-import { SiteHeader } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/site-header";
-import { AboutIntro } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/about-intro";
-import { AboutSlider } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/about-slider";
-import { ResumeSection } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/resume-section";
-import { SkillsSection } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/skills-section";
-import { TestimonialSection } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/testimonial-section";
-import { BannerSection } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/banner-section";
-import { BlogSection } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/blog-section";
-import { SiteFooter } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/site-footer";
-import { PageEffects } from "@/components/sites/html-aqlova-com-27e9f18f/about-me-light/page-effects";
+import { SiteHeader } from "@/components/site-header";
+import { AboutIntro } from "@/components/about-intro";
+import { AboutSlider } from "@/components/about-slider";
+import { ResumeSection } from "@/components/resume-section";
+import { SkillsSection } from "@/components/skills-section";
+import { TestimonialSection } from "@/components/testimonial-section";
+import { BannerSection } from "@/components/banner-section";
+import { BlogSection } from "@/components/blog-section";
+import { SiteFooter } from "@/components/site-footer";
+import { PageEffects } from "@/components/page-effects";
 import type { ResumeItem } from "@/types/site";
 
 const EDUCATION: ResumeItem[] = [

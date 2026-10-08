@@ -1,6 +1,6 @@
 # CH — Portfólio
 
-Site pessoal do **Carlos Henrique (CH)**: desenvolvedor full-stack focado em React, Next.js e soluções web sob medida.
+Minha página pessoal **Carlos Henrique (CH)**: desenvolvedor full-stack focado em React, Next.js e soluções web sob medida.
 
 ## Sobre
 
@@ -40,12 +40,13 @@ src/
 │   ├── globals.css      # tokens de tema + estilos do site
 │   ├── layout.tsx       # metadados SEO, fontes, providers
 │   └── page.tsx         # composição das seções
-├── components/
-│   ├── sites/html-aqlova-com-27e9f18f/
-│   │   ├── about-me-light/   # seções da home (banner, sobre, projetos, skills, footer…)
-│   │   └── shared/           # primitivos, ícones e assets compartilhados
-│   └── ui/              # (reservado para componentes base)
-├── lib/                 # utilitários e fontes
+├── components/          # todos os componentes da home
+│   ├── site-header.tsx / site-footer.tsx / page-effects.tsx
+│   ├── banner-section.tsx / about-intro.tsx / about-slider.tsx
+│   ├── resume-section.tsx / skills-section.tsx
+│   ├── testimonial-section.tsx / blog-section.tsx
+│   └── icons.tsx / primitives.tsx / reveal.tsx   # compartilhados
+├── lib/                 # fontes
 └── types/               # tipos compartilhados
 
 public/
@@ -55,8 +56,8 @@ public/
 
 ## Conteúdo e personalização
 
-- Textos, links e imagens ficam nos componentes de `src/components/sites/html-aqlova-com-27e9f18f/about-me-light/`.
-- O mapa de assets usados está em `shared/icons.tsx` (`SITE_ASSETS`).
+- Textos, links e imagens ficam nos componentes de `src/components/`.
+- O mapa de assets usados está em `src/components/icons.tsx` (`SITE_ASSETS`).
 - Redes sociais, e-mail e WhatsApp estão no rodapé (`site-footer.tsx`) e no banner (`banner-section.tsx`).
 
 ## SEO / metadados

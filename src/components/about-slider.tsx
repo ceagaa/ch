@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { SITE_ASSETS } from "@/components/sites/html-aqlova-com-27e9f18f/shared/icons";
+import { SITE_ASSETS } from "@/components/icons";
 
 const driftPct = (y: number) =>
   -15.9128 - 0.047861 * y + 3.1626e-6 * y * y;

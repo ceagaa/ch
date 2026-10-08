@@ -1,4 +1,4 @@
-import { SITE_ASSETS } from "@/components/sites/html-aqlova-com-27e9f18f/shared/icons";
+import { SITE_ASSETS } from "@/components/icons";
 
 export function TestimonialSection() {
   return (

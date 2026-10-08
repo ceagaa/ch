@@ -1,5 +1,5 @@
-import { SectionSubtitle } from "@/components/sites/html-aqlova-com-27e9f18f/shared/primitives";
-import { FadeIn } from "@/components/sites/html-aqlova-com-27e9f18f/shared/reveal";
+import { SectionSubtitle } from "@/components/primitives";
+import { FadeIn } from "@/components/reveal";
 
 export function AboutIntro() {
   return (

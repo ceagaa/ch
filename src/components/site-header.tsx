@@ -1,4 +1,4 @@
-import { ArrowNEIcon } from "@/components/sites/html-aqlova-com-27e9f18f/shared/icons";
+import { ArrowNEIcon } from "@/components/icons";
 
 const SOCIALS = ["Facebook", "LinkedIn", "Github"];
 

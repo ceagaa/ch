@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Lenis from "lenis";
-import { BackToTopIcon } from "@/components/sites/html-aqlova-com-27e9f18f/shared/icons";
+import { BackToTopIcon } from "@/components/icons";
 
 export function PageEffects() {
   const [showTop, setShowTop] = useState(false);

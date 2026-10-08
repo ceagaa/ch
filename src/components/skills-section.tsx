@@ -1,4 +1,4 @@
-import { FadeIn } from "@/components/sites/html-aqlova-com-27e9f18f/shared/reveal";
+import { FadeIn } from "@/components/reveal";
 
 const SKILL_GROUPS = [
   {
