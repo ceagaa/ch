@@ -1,6 +1,6 @@
 # CH — Portfólio
 
-Site pessoal de **Carlos Henrique (CH)**, desenvolvedor full-stack.
+Meu site pessoal :)
 
 ## Rodar
 
