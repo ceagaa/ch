@@ -22,9 +22,18 @@ Acesse: http://localhost:3000
 
 ## Deploy
 
-O deploy roda no **Cloudflare Workers** via integração Git (`npx wrangler deploy`). O worker se chama `ch` — esse nome está em `wrangler.jsonc` e precisa bater com o *project setting* do dashboard da Cloudflare (Settings → Domains & Workers).
+Deploy no **Cloudflare Workers** via integração Git (repo `github.com/ceagaa/ch`).
 
-Ao publicar, defina `NEXT_PUBLIC_SITE_URL` no `.env.local` (ou nas env vars do worker) com o domínio final (ex.: `https://seudominio.com.br`) para corrigir os metadados sociais (Open Graph).
+No dashboard: **Workers & Pages → ch → Settings → Build & Deploy**, configure:
+
+| Campo | Valor |
+|---|---|
+| Build command | `npx opennextjs-cloudflare build` |
+| Deploy command | `npx wrangler deploy` |
+
+O build do OpenNext já inclui o `next build` e gera o bundle `.open-next/` que o `wrangler deploy` sobe. O worker se chama `ch` (`wrangler.jsonc`: `name`/`service` precisam bater com o project setting).
+
+Ao publicar, defina `NEXT_PUBLIC_SITE_URL` nas env vars do worker com o domínio final (ex.: `https://seudominio.com.br`) para corrigir os metadados sociais (Open Graph).
 
 ## Stack
 
@@ -38,10 +47,6 @@ Ao publicar, defina `NEXT_PUBLIC_SITE_URL` no `.env.local` (ou nas env vars do w
 - `src/components/` — seções da home, ícones e utilitários visuais
 - `src/lib/` e `src/types/` — fontes e tipos
 - `public/` — imagens e fontes locais
-
-## Deploy
-
-Funciona na Vercel, Netlify ou qualquer host Node (`npm run build` e depois `npm run start`). Ao publicar, defina `NEXT_PUBLIC_SITE_URL` no `.env.local` com o domínio final (ex.: `https://seudominio.com.br`) para corrigir os metadados sociais (Open Graph).
 
 ---
 
