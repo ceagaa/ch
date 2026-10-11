@@ -12,8 +12,6 @@ const SKILL_GROUPS = [
       "HTML5",
       "CSS3",
       "Tailwind CSS",
-      "Vue.js",
-      "Angular",
       "jQuery",
     ],
   },
@@ -23,7 +21,7 @@ const SKILL_GROUPS = [
   },
   {
     title: "Mobile",
-    items: ["React Native", "Flutter", "Kotlin", "Swift"],
+    items: ["React Native", "Flutter"],
   },
   {
     title: "Banco de dados e CMS",

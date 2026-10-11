@@ -47,7 +47,7 @@ const EXPERIENCE: ResumeItem[] = [
     title: "Desenvolvedor Full Stack e Design",
     location: "Freelancer – 2swebtech",
     description:
-      "Desenvolvimento de websites, blogs, lojas virtuais e soluções digitais utilizando HTML5, CSS3, JavaScript, PHP, WordPress, React, TypeScript, Tailwind, Angular, Vue, Vite, Git, Github. Atuação em desenvolvimento Full Stack e administração de ambientes web, com conhecimento avançado em cPanel, aaPanel e VPS. Portfólio: 2swebtech.com.br/cases/",
+      "Desenvolvimento de sites, landingpages, blogs e sistemas web/apps utilizando HTML5, CSS3, JavaScript, PHP, WordPress, React, TypeScript, Tailwind, Vite, Git, Github. Atuação em desenvolvimento Full Stack e administração de ambientes web, com conhecimento avançado em cPanel, aaPanel e VPS.",
   },
   {
     date: "2018 - 2021",
